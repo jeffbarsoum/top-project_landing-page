@@ -1,0 +1,101 @@
+/* This stylesheet defines the styling of our landing page, index.html */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  height: 100vh;
+}
+
+nav,
+.sub-nav {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  padding: 20px 150px;
+}
+
+.button-signup {
+  color: white;
+background-color: #3882f6;
+width: 115px;
+height: 30px;
+border-color: white;
+border-style: solid;
+border-radius: 10px;
+font-weight: 700;
+font-size: 14px;
+}
+
+.logo {
+  /* margin: 10px; */
+  font-size: 24px;
+  font-weight: 700;
+}
+.links {
+  /* margin-right: 150px; */
+  margin-left: auto;
+}
+ul {
+  display: flex;
+  padding: 0px;
+  margin: 10px;
+  gap: 10px;
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.sub-nav {
+  padding: 150px;
+}
+
+.sub-nav-content {
+  display: flex;
+  gap: 20px;
+}
+
+.sub-nav-dialog {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  gap: 10px;
+  width: 350px;
+}
+
+.sub-nav-dialog-text {
+  color: #bfbfbf;
+}
+
+.sub-nav-dialog .button-signup {
+  border-style: none;
+}
+
+.sub-nav-dialog-header {
+  font-weight: 700;
+  font-size: 37px;
+}
+
+.sub-nav-content {
+
+}
+
+.sub-nav-img {
+  display: flex;
+  background-color: #6d747d;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 auto;
+  margin-left: auto;
+}
+
+
+.sub-nav-content
+.sub-nav-dialog {
+  display: flex;
+}
