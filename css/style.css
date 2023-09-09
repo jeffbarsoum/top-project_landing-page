@@ -18,14 +18,14 @@ nav,
 
 .button-signup {
   color: white;
-background-color: #3882f6;
-width: 115px;
-height: 30px;
-border-color: white;
-border-style: solid;
-border-radius: 10px;
-font-weight: 700;
-font-size: 14px;
+  background-color: #3882f6;
+  width: 140px;
+  height: 40px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .logo {
@@ -41,7 +41,7 @@ ul {
   display: flex;
   padding: 0px;
   margin: 10px;
-  gap: 10px;
+  gap: 20px;
   list-style-type: none;
 }
 
@@ -77,12 +77,9 @@ nav a {
 
 .sub-nav-dialog-header {
   font-weight: 700;
-  font-size: 37px;
+  font-size: 42px;
 }
 
-.sub-nav-content {
-
-}
 
 .sub-nav-img {
   display: flex;
@@ -94,8 +91,98 @@ nav a {
   margin-left: auto;
 }
 
-
-.sub-nav-content
-.sub-nav-dialog {
+.content-cards {
   display: flex;
+  flex-direction: column;
+  padding: 20px 200px 100px;
+}
+
+.content-cards-header {
+  font-size:37px;
+  font-weight: 700;
+  text-align: center;
+  padding: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 175px;
+}
+
+.card-text {
+  text-align: center;
+  color: #616a77;
+  /* width: 175px; */
+}
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: #3882f6;
+  width: 175px;
+  height: 175px;
+}
+
+.content-quote {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #e5e7eb;
+  font-weight: 300;
+  font-style: italic;
+  padding: 100px 375px;
+  font-size: 30px;
+}
+
+.content-quote-author {
+  font-weight: 700;
+  margin-left: auto;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.content-signup {
+  display: flex;
+  margin: 200px;
+  padding: 50px 150px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+  gap: 20px;
+}
+
+.box-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.box-signup-header {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.box-text {
+  color: #e5e7eb;
+}
+
+.content-signup button {
+  margin-left: auto;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 40px;
 }
